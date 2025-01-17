@@ -1,0 +1,16 @@
+import close from "./close.svg"
+import menu from "./menu.svg"
+import api from "./deployApi.svg"
+import nlp from "./nlpDashboard.svg"
+import bias from "./medium svg/bias.svg"
+import classification from "./medium svg/classification.svg"
+import inductive from "./medium svg/inductive.svg"
+import modelvalgo from "./medium svg/modelvalgo.svg"
+import nlp_medium from "./medium svg/nlp.svg"
+import overfiting from "./medium svg/overfitting.svg"
+import right_ml from "./medium svg/right ml.svg"
+import shiny from "./medium svg/shiny.svg"
+import structured from "./medium svg/structured.svg"
+import underfiting from "./medium svg/undefitting.svg"
+
+export{ close, menu, api, nlp, bias, classification, inductive, modelvalgo, nlp_medium, overfiting, right_ml, shiny, structured, underfiting}
