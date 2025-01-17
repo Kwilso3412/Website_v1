@@ -8,5 +8,5 @@
 - TypeScript - Programming language
 - React - JavaScript library for building user interfaces
 - Tailwind - CSS framework
-- render - Web hosting platform
+- Render - Web hosting platform
 - GitHub - Version control & CI/CD
