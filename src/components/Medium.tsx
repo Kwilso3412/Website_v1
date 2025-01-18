@@ -71,11 +71,11 @@ const Medium: React.FC = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    sleidesToShow: 1,
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    adapriveHeight: true,
+    adaptiveHeight: true,
     dotsClass: styles.sliderDots,
     customPaging: () => <div className={styles.sliderDot}></div>,
   };
