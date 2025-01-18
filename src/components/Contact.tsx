@@ -5,7 +5,6 @@ import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
-  // Move environment variables into component state
   const [config] = useState({
     recaptchaKey: import.meta.env.VITE_RECAPTCHA_SITE_KEY,
     emailjsKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
@@ -46,7 +45,7 @@ const Contact = () => {
         reply_to: formData.email,
         subject: formData.subject,
         message: formData.message,
-        "g-recaptcha-response": token, // Add token here
+        "g-recaptcha-response": token,
       };
 
       // Send email with token
