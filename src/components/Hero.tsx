@@ -2,11 +2,6 @@ import React from "react";
 import Position from "./Position";
 import "../index.css";
 import { styles } from "../styles";
-/**
- * About component displaying personal information with parallax effect
- * @TODO:
- * - Add nice background, something generated in midjounery
- */
 
 const Hero: React.FC = () => {
   return (

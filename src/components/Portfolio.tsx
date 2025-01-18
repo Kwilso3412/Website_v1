@@ -19,12 +19,6 @@ interface ProjectCardProps extends Project {
   index: number;
 }
 
-/**
- * TODO:
- * - Add links to portfolio pictures and titles
- * - Include GitHub profile link
- */
-
 const NextArrow = ({ onClick }: { onClick?: () => void }) => (
   <button onClick={onClick} className={styles.rightButton}>
     <ChevronRight className={styles.chevronButtonStyle} />

@@ -94,9 +94,7 @@ const Medium: React.FC = () => {
               href="https://medium.com/@wilsonkai"
               target="_blank "
               className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-            >
-              Your Link Text
-            </a>
+            ></a>
             View Medium Profile
           </h3>
         </div>
